@@ -1,4 +1,4 @@
-# Sapienza 33430 calendar automation
+# Sapienza calendar automation
 
 Checks official Sapienza sources every 6 hours.
 
