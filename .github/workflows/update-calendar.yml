@@ -1,0 +1,38 @@
+name: Update Sapienza calendar
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sapienza-calendar-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check official Sapienza sources
+        run: python update_calendar.py
+
+      - name: Commit verified changes
+        run: |
+          git config user.name "sapienza-calendar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add Y1S12026.ics source-state.json last-check.md
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Auto-check Sapienza timetable"
+            git push
+          fi
