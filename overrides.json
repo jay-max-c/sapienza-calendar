@@ -1,0 +1,27 @@
+{
+  "_comment": "Manual professor-email layer. Edit this file whenever a professor announces a change. Values here override scraped data.",
+  "10622399": {
+    "professor": "Prof. Antonio Russo",
+    "meet": "https://meet.google.com/cmm-ofbr-yzr",
+    "location": "Aula B8, Piazza Borghese 9, 00186 Roma RM, Italy"
+  },
+  "10622400": {
+    "professor": "Prof. Linda Giresini",
+    "start_date": "2026-09-22",
+    "location": "Aula B8, Piazza Borghese 9, 00186 Roma RM, Italy"
+  },
+  "10622401": {
+    "professor": "Marika Griffo",
+    "meet": "https://meet.google.com/gcr-oewv-jze",
+    "location": "Aula B8, Piazza Borghese 9, 00186 Roma RM, Italy"
+  },
+  "10622418": {
+    "professor": "Prof. Calogero Bellanca",
+    "start_date": "2026-09-29",
+    "location_by_day": {
+      "TU": "Aula B8, Piazza Borghese 9, 00186 Roma RM, Italy",
+      "TH": "Aula G42, Via Emanuele Gianturco 2, 00196 Roma RM, Italy"
+    },
+    "note": "Professor email: classes begin Tuesday 29 September 2026."
+  }
+}
