@@ -1,0 +1,16 @@
+{
+  "lessons_plan_sha256": "f3798c8b4ad76b9b3f55c03475152af2119f4c0dd607dc543b87286d761dfc78",
+  "faculty_sources": [
+    {
+      "url": "https://corsidilaurea.uniroma1.it/en/course/33430/attendance/timetable",
+      "sha256": "c7c68c4fb6217dde9c635f1da9a0bd34f7dca96ede06f61c35344b64ecd5c5d3"
+    }
+  ],
+  "courses_found": {
+    "10622399": "TOOLS AND METHODS FOR HISTORICAL RESEARCH",
+    "10622400": "STRUCTURAL ENGINEERING OF ANCIENT AND MODERN BUILDINGS",
+    "10622401": "ARCHITECTURAL SURVEY",
+    "10622418": "THEORY AND PRACTICE OF CONSERVATION"
+  },
+  "schedule_found": {}
+}
