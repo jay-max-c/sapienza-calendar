@@ -7,7 +7,7 @@ Checks official Sapienza sources every 6 hours.
 - `overrides.json` is the manual layer for professor emails, Meet links and special start dates.
 - The script has a safety stop: it does **not** overwrite `Y1S12026.ics` unless all four courses have a complete parseable timetable.
 
-## Manual professor updates
+## Manual Email updates
 
 Edit `overrides.json` and commit. Professor information takes priority over scraped website data.
 
