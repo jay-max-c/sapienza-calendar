@@ -13,5 +13,5 @@ Edit `overrides.json` and commit. Professor information takes priority over scra
 
 ## iPhone subscription
 
-Subscribe to the raw `Y1S12026.ics` URL in Apple Calendar. The URL remains unchanged when GitHub Actions updates the file.
-Architecture (Conservation) EN Y1 S1：https://raw.githubusercontent.com/jay-max-c/sapienza-calendar/refs/heads/main/Y1S12026.ics
+- Subscribe to the raw `Y1S12026.ics` URL in Apple Calendar. The URL remains unchanged when GitHub Actions updates the file.
+- Architecture (Conservation) EN Y1 S1：https://raw.githubusercontent.com/jay-max-c/sapienza-calendar/refs/heads/main/Y1S12026.ics
