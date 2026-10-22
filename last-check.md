@@ -5,7 +5,7 @@
 - Safe to regenerate ICS automatically: **NO**
 
 ## Fetch warnings
-- https://www.architettura.uniroma1.it/en/orario: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+- https://www.architettura.uniroma1.it/en/orario: <urlopen error timed out>
 
 ## Safety stop
 The official timetable source did not expose a complete machine-readable timetable.
