@@ -1,9 +1,9 @@
 {
-  "lessons_plan_sha256": "e8d546794010024421b8d86f48b62046dad91ac921d5432fdbedbde606eb6072",
+  "lessons_plan_sha256": "43ed71e0c6a00f69d81c300e9c1d74552c96c47e213c0f9afe7329bdfb330aa2",
   "faculty_sources": [
     {
       "url": "https://corsidilaurea.uniroma1.it/en/course/33430/attendance/timetable",
-      "sha256": "ae82d09081ca623e2340072252f49217ba7adf65111c867b391ffbac35aabfa8"
+      "sha256": "4b420783927f6b450ccb45ce1d9f0fb1a5e224eacb5ab92b7f5a56257ec8bfcb"
     }
   ],
   "courses_found": {
